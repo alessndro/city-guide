@@ -1,0 +1,183 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    margin: 0;
+    text-align: center;
+    font-size:15px;
+    font-family: 'Open Sans';
+}
+
+img {
+    width: 100px;
+}
+
+
+
+/* Hero section */ 
+.hero-div
+{
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.30)), url("images/amsterdam.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    color:white;
+    display:flex;
+    flex-direction:column;
+    height:100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-hero
+{
+    width:250px;
+    margin: 70px 0px;
+}
+
+.hero-div h1
+{
+    font-style: bold;
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 10px;  
+}
+
+
+.hero-div h2
+{
+    font-style: bold;
+    font-weight: 900;
+    font-size: 10px;
+    line-height: 14px;  
+    margin-bottom: 15px;
+}
+
+.hero-div h1, h2
+{
+    text-shadow: 0px 0px 1px black;
+}
+
+/* ---------- end hero ------ */
+    
+    
+/* activities div */
+
+.activities-div
+{
+   display:flex;
+   flex-direction: row;
+   align-items: start;
+   justify-content: space-between;
+   margin: 20px 0px;
+}
+
+.activities-div p
+{
+    font-size: 9px;
+}
+
+.activities-div h4
+{
+    color: #D9224C;
+}
+.culture-div
+{
+    padding: 5px 10px;
+    width: 220px;
+}
+
+.biking-div
+{
+    padding: 5px 10px;
+    width:220px;
+}
+
+.nightlife-div
+{
+    padding: 5px 10px;
+    width:220px;
+}
+
+/* end activites div */
+
+/* guide div */
+
+.guide-div
+{
+   width:500px;
+   margin: 0px auto;
+}
+
+.border-div
+{
+    display:flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: start;
+   box-shadow: 5px 5px 5px grey;
+   height:300px;
+
+}
+
+#img-guide
+{
+
+}
+
+.img-div
+{
+   background-image: url("images/per.jpg");
+    background-size: cover;
+    width: 250px;
+   height: 300px; 
+}
+
+.info-div
+{
+    text-align: center;
+    width: 250px;
+    height: 260px;
+    background-color:#FBE8ED; 
+    padding:20px 40px;
+}
+
+.info-div p
+{
+    font-size: 8px;
+}
+.info-div .btn
+{
+    margin-top:20px;
+}
+
+/* end guide div */
+.btn
+{
+    color:white;
+    background-color: #D9224C;
+    border:none;
+    padding:3px 20px;
+    font-size: 12px;
+    border-radius:2px;
+}
+
+.main h3
+{
+    font-size:13px;
+    
+}
+
+.main 
+{
+    font-size:10px;
+    margin: 40px 20px;
+}
